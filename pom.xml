@@ -997,7 +997,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 			<artifactId>xstream</artifactId>
 
-			<version>1.4.18</version>
+			<version>1.4.19</version>
 
 		</dependency>
 
