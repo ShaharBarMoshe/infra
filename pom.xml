@@ -864,6 +864,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
+			<version>1.4.19</version>
 		</dependency>
 		<dependency>
 			<groupId>joda-time</groupId>
@@ -967,7 +968,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 			<artifactId>commons-io</artifactId>
 
-			<version>2.4</version>
+			<version>2.11.0</version>
 
 		</dependency>
 
@@ -988,16 +989,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>spring-security-test</artifactId>
 
 			<scope>test</scope>
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>com.thoughtworks.xstream</groupId>
-
-			<artifactId>xstream</artifactId>
-
-			<version>1.4.18</version>
 
 		</dependency>
 
@@ -1457,13 +1448,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		</dependency>
 
 		<dependency>
-
 			<groupId>org.bouncycastle</groupId>
-
 			<artifactId>bcprov-jdk15on</artifactId>
-
-			<version>1.61</version>
-
+			<version>1.70</version>
 		</dependency>
 
 
