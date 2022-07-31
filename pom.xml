@@ -2658,7 +2658,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 
             <artifactId>jetty-webapp</artifactId>
 
-            <version>9.4.41.v20210516</version>
+            <version>9.4.44.v20210927</version>
 
         </dependency>
 
