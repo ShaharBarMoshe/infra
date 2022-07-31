@@ -2492,7 +2492,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 
         <artifactId>spring-core</artifactId>
 
-        <version>5.2.16.RELEASE</version>
+        <version>5.2.22.RELEASE</version>
 
         </dependency>
 
