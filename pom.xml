@@ -1462,7 +1462,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 			<artifactId>bcprov-jdk15on</artifactId>
 
-			<version>1.61</version>
+			<version>1.67</version>
 
 		</dependency>
 
