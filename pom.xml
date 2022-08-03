@@ -20,16 +20,16 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<repackage.classifier />
 		<spring-boot-admin.version>2.7.2</spring-boot-admin.version>
 
-		<solace-spring-cloud.version>2.3.0</solace-spring-cloud.version>
-		<spring-cloud-azure.version>4.0.0</spring-cloud-azure.version>
+		<solace-spring-cloud.version>2.3.1</solace-spring-cloud.version>
+		<spring-cloud-azure.version>4.3.0</spring-cloud-azure.version>
 		<spring-cloud-gcp.version>3.3.0</spring-cloud-gcp.version>
 		<spring-cloud-services.version>3.4.0</spring-cloud-services.version>
 		<spring-cloud.version>2021.0.3</spring-cloud.version>
-		<spring-geode.version>1.6.7</spring-geode.version>
-		<spring-native.version>0.11.4</spring-native.version>
-		<testcontainers.version>1.16.2</testcontainers.version>
-		<vaadin.version>23.1.3</vaadin.version>
-		<wavefront.version>2.2.2</wavefront.version>
+		<spring-geode.version>1.7.2</spring-geode.version>
+		<spring-native.version>1.12.0</spring-native.version>
+		<testcontainers.version>1.17.3</testcontainers.version>
+		<vaadin.version>23.1.4</vaadin.version>
+		<wavefront.version>2.3.0</wavefront.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -151,10 +151,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mustache</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -481,11 +477,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
 			<groupId>com.ibm.db2</groupId>
 			<artifactId>jcc</artifactId>
 			<scope>runtime</scope>
@@ -571,11 +562,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
+
 
 		<dependency>
 			<groupId>com.unboundid</groupId>
@@ -815,24 +802,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>commons-configuration</artifactId>
 			<version>1.8</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-tomcat</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
+
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jetty</artifactId>
@@ -873,10 +845,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-sleuth</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>net.logstash.logback</groupId>
@@ -992,24 +960,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 		</dependency>
 
-		<dependency>
+		
 
-			<groupId>org.hibernate</groupId>
-
-			<artifactId>hibernate-core</artifactId>
-
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>com.fasterxml.jackson.core</groupId>
-
-			<artifactId>jackson-databind</artifactId>
-
-
-		</dependency>
-
+		
 		<dependency>
 
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -1027,26 +980,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 
 		</dependency>
-
-		<dependency>
-
-			<groupId>com.fasterxml.jackson.dataformat</groupId>
-
-			<artifactId>jackson-dataformat-cbor</artifactId>
-
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>org.springframework</groupId>
-
-			<artifactId>spring-core</artifactId>
-
-
-		</dependency>
-
-
 
 		<dependency>
 
@@ -1304,25 +1237,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 
 		<dependency>
-			<groupId>com.azure.spring</groupId>
-			<artifactId>spring-cloud-azure-starter-active-directory</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
 
 
-
-		<dependency>
-
-			<groupId>commons-beanutils</groupId>
-
-			<artifactId>commons-beanutils</artifactId>
-
-			<version>1.9.4</version>
-
-		</dependency>
 
 		<dependency>
 
@@ -1344,15 +1263,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 		<dependency>
 
-			<groupId>org.springframework.amqp</groupId>
-
-			<artifactId>spring-amqp</artifactId>
-
-		</dependency>
-
-
-		<dependency>
-
 			<groupId>org.camunda.bpm.springboot</groupId>
 
 			<artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
@@ -1365,17 +1275,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 			<artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
 
-			<exclusions>
-
-				<exclusion>
-
-					<groupId>org.apache.tomcat.embed</groupId>
-
-					<artifactId>tomcat-embed-core</artifactId>
-
-				</exclusion>
-
-			</exclusions>
 
 		</dependency>
 
@@ -1430,29 +1329,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		</dependency>
 
 		<dependency>
-
-			<groupId>org.springframework.cloud</groupId>
-
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>com.h2database</groupId>
-
-			<artifactId>h2</artifactId>
-
-			<scope>test</scope>
-
-		</dependency>
-
-		<dependency>
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bcprov-jdk15on</artifactId>
 			<version>1.70</version>
 		</dependency>
-
 
 
 		<dependency>
@@ -1462,32 +1342,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>mybatis</artifactId>
 
 		</dependency>
-		<dependency>
-
-			<groupId>org.apache.commons</groupId>
-
-			<artifactId>commons-compress</artifactId>
-
-			<version>1.21</version>
-
-		</dependency>
-		<dependency>
-
-			<groupId>org.camunda.bpm.springboot</groupId>
-
-			<artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
-
-		</dependency>
-
-
-		<dependency>
-
-			<groupId>org.camunda.bpm.springboot</groupId>
-
-			<artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
-
-		</dependency>
-
 
 		<dependency>
 
@@ -1497,7 +1351,14 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 		</dependency>
 
-
+<dependency>
+    <groupId>org.camunda.connect</groupId>
+    <artifactId>camunda-connect-core</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.camunda.connect</groupId>
+    <artifactId>camunda-connect-connectors-all</artifactId>
+</dependency>
 		<dependency>
 
 			<groupId>org.camunda.spin</groupId>
@@ -1505,25 +1366,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>camunda-spin-dataformat-all</artifactId>
 
 		</dependency>
-
-
-		<dependency>
-
-			<groupId>org.springframework.boot</groupId>
-
-			<artifactId>spring-boot-starter-security</artifactId>
-
-		</dependency>
-
-
-		<dependency>
-
-			<groupId>org.springframework.boot</groupId>
-
-			<artifactId>spring-boot-starter-web</artifactId>
-
-		</dependency>
-
+<dependency>
+    <groupId>org.camunda.connect</groupId>
+    <artifactId>camunda-connect-http-client</artifactId>
+</dependency>
 
 		<dependency>
 
@@ -1532,21 +1378,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>h2</artifactId>
 
 		</dependency>
-
-
-		<dependency>
-
-			<groupId>org.springframework.boot</groupId>
-
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-
-		</dependency>
-
-
-		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-core</artifactId> 
-			<version>5.1.13.RELEASE</version> </dependency> <dependency> <groupId>org.springframework</groupId> 
-			<artifactId>spring-tx</artifactId> <version>5.1.13.RELEASE</version> </dependency> -->
-
 
 
 	</dependencies>
@@ -1565,6 +1396,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<type>pom</type>
 
 			</dependency>
+			<dependency>
+    <groupId>org.camunda.connect</groupId>
+    <artifactId>camunda-connect-bom</artifactId>
+    <version>1.5.5</version>
+    <type>pom</type>
+</dependency>
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
@@ -1842,7 +1679,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 					<plugin>
 						<groupId>com.vaadin</groupId>
 						<artifactId>vaadin-maven-plugin</artifactId>
-						<version>${vaadin.version}</version>
+						<version>23.1.4</version>
 						<executions>
 							<execution>
 								<id>frontend</id>
@@ -1860,46 +1697,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				</plugins>
 			</build>
 		</profile>
-		<profile>
-			<id>native</id>
-			<properties>
-				<repackage.classifier>exec</repackage.classifier>
-				<native-buildtools.version>0.9.11</native-buildtools.version>
-			</properties>
-			<dependencies>
-				<dependency>
-					<groupId>org.junit.platform</groupId>
-					<artifactId>junit-platform-launcher</artifactId>
-					<scope>test</scope>
-				</dependency>
-			</dependencies>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.graalvm.buildtools</groupId>
-						<artifactId>native-maven-plugin</artifactId>
-						<version>${native-buildtools.version}</version>
-						<extensions>true</extensions>
-						<executions>
-							<execution>
-								<id>test-native</id>
-								<phase>test</phase>
-								<goals>
-									<goal>test</goal>
-								</goals>
-							</execution>
-							<execution>
-								<id>build-native</id>
-								<phase>package</phase>
-								<goals>
-									<goal>build</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
+			</profiles>
 
 </project>
