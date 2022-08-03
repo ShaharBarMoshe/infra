@@ -22,7 +22,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 		<solace-spring-cloud.version>2.3.0</solace-spring-cloud.version>
 		<spring-cloud-azure.version>4.0.0</spring-cloud-azure.version>
-		<spring-cloud-gcp.version>3.2.1</spring-cloud-gcp.version>
+		<spring-cloud-gcp.version>3.3.0</spring-cloud-gcp.version>
 		<spring-cloud-services.version>3.4.0</spring-cloud-services.version>
 		<spring-cloud.version>2021.0.3</spring-cloud.version>
 		<spring-geode.version>1.6.7</spring-geode.version>
