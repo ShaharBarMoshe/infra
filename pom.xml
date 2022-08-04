@@ -7,7 +7,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.2</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
@@ -19,7 +19,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 		<waffle.version>3.0.0</waffle.version>
 		<java.version>8</java.version>
-		<repackage.classifier />
+		<repackage.classifier/>
 		<spring-boot-admin.version>2.7.2</spring-boot-admin.version>
 
 		<solace-spring-cloud.version>2.3.1</solace-spring-cloud.version>
@@ -1320,7 +1320,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 			<artifactId>camunda-bpm-mockito</artifactId>
 
-			<version>4.10.0</version>
+			<version>4.13.0</version>
 
 		</dependency>
 
