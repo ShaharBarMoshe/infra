@@ -20,7 +20,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<waffle.version>3.0.0</waffle.version>
 		<java.version>8</java.version>
 		<repackage.classifier />
-		<spring-boot-admin.version>2.7.2</spring-boot-admin.version>
+		<spring-boot-admin.version>3.0.0-M4</spring-boot-admin.version>
 
 		<solace-spring-cloud.version>2.3.1</solace-spring-cloud.version>
 		<spring-cloud-azure.version>4.3.0</spring-cloud-azure.version>
@@ -43,6 +43,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<spring-data.version>2021.2.2</spring-data.version>
 		<poi.version>5.2.2</poi.version>
 		<spring-cloud-azure.version>4.3.0</spring-cloud-azure.version>
+		<postgresql.version>42.4.1</postgresql.version>
+		
 	</properties>
 	<dependencies>
 		<dependency>
