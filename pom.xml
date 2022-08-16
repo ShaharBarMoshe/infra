@@ -43,7 +43,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<spring-data.version>2021.2.2</spring-data.version>
 		<poi.version>5.2.2</poi.version>
 		<spring-cloud-azure.version>4.3.0</spring-cloud-azure.version>
+		
+		<!-- the next properties is for security issues , should be deleted later -->
 		<postgresql.version>42.4.1</postgresql.version>
+		<thymeleaf-extras-springsecurity.version>3.1.0.M1</thymeleaf-extras-springsecurity.version>
+		
 		
 	</properties>
 	<dependencies>
