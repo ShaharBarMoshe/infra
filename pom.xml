@@ -7,7 +7,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.2</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
@@ -19,7 +19,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 		<waffle.version>3.0.0</waffle.version>
 		<java.version>8</java.version>
-		<repackage.classifier />
+		<repackage.classifier/>
 		<spring-boot-admin.version>3.0.0-M4</spring-boot-admin.version>
 
 		<solace-spring-cloud.version>2.3.1</solace-spring-cloud.version>
@@ -41,7 +41,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<commons-configuration2.version>2.8.0</commons-configuration2.version>
 		<pringfox-swagger.version>3.0.0</pringfox-swagger.version>
 		<spring-data.version>2021.2.2</spring-data.version>
-		<poi.version>5.2.2</poi.version>
+		<poi.version>5.2.3</poi.version>
 		<spring-cloud-azure.version>4.3.0</spring-cloud-azure.version>
 		
 		<!-- the next properties is for security issues , should be deleted later -->
