@@ -7,7 +7,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.2</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
@@ -19,7 +19,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 		<waffle.version>3.0.0</waffle.version>
 		<java.version>8</java.version>
-		<repackage.classifier />
+		<repackage.classifier/>
 		<spring-boot-admin.version>3.0.0-M4</spring-boot-admin.version>
 
 		<solace-spring-cloud.version>2.3.1</solace-spring-cloud.version>
@@ -33,7 +33,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<vaadin.version>23.1.4</vaadin.version>
 		<wavefront.version>2.3.0</wavefront.version>
 		<jjwt.version>0.11.5</jjwt.version>
-		<okta-spring-boot.version>2.1.5</okta-spring-boot.version>
+		<okta-spring-boot.version>3.0.0</okta-spring-boot.version>
 		<picocli-spring-boot.version>4.6.3</picocli-spring-boot.version>
 		<camel-spring-boot.version>3.18.0</camel-spring-boot.version>
 		<mybatis-spring-boot.version>2.2.2</mybatis-spring-boot.version>
