@@ -38,7 +38,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<camel-spring-boot.version>3.18.0</camel-spring-boot.version>
 		<mybatis-spring-boot.version>2.2.2</mybatis-spring-boot.version>
 		<commons-beanutils.version>1.9.4</commons-beanutils.version>
-		<commons-configuration2.version>2.8.0</commons-configuration2.version>
+		<commons-configuration2.version>2.10.1</commons-configuration2.version>
 		<pringfox-swagger.version>3.0.0</pringfox-swagger.version>
 		<spring-data.version>2021.2.2</spring-data.version>
 		<poi.version>5.2.2</poi.version>
